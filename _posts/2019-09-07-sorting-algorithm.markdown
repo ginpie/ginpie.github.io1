@@ -28,7 +28,7 @@ Sorting algorithms are often classified by the following aspects:
     <th>Name</th><th>Worst</th><th>Average</th><th>Best</th><th>Memory</th><th>Stable</th><th>Method</th>
   </tr>
   <tr>
-    <td>Insertion sort</td><td>![n^2](/assets/n^2.png)</td><td>$n^2$</td><td>n</td><td>1</td><td>Y</td><td>Insertion</td>
+    <td>Insertion sort</td><td><img src="/assets/n2.png" alt="n^2"></td><td>$n^2$</td><td>n</td><td>1</td><td>Y</td><td>Insertion</td>
   </tr>
   <tr>
     <td>Bubble sort</td><td>$n^2$</td><td>$n^2$</td><td>n</td><td>1</td><td>Y</td><td>Exchanging</td>
@@ -46,3 +46,12 @@ Sorting algorithms are often classified by the following aspects:
     <td>Heapsort</td><td>nlog(n)</td><td>nlog(n)</td><td>nlog(n)</td><td>1</td><td>N</td><td>Selection</td>
   </tr>
 </table>
+
+## Some interesting resources
+[Animated sorting algorithms][asa]
+[15 Sorting Algorithms in 6 Minutes (Youtube)][15sa6m]
+[Slightly Skeptical View on Sorting Algorithms][ssvsa]
+
+[asa]:    http://www.sorting-algorithms.com/
+[15sa6m]: https://www.youtube.com/watch?v=kPRA0W1kECg
+[ssvsa]:  http://www.softpanorama.org/Algorithms/sorting.shtml
