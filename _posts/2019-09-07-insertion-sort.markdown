@@ -21,21 +21,30 @@ Sorting algorithms are often classified by the following aspects:
 * <b>Adaptability</b>. If the presortedness affects the running time.
 * <b>Sorting method</b>. Insertion sort, merge sort, quick sort, heap sort, etc.
 
-<h3 id="list">List of popular sortings</h3>
+<h3 id="list">List of popular comparison sortings</h3>
 <table style="width:100%">
+  <caption>Comparison sortings</caption>
   <tr>
-    <th>Name</th>
-    <th>Worst</th>
-    <th>Average</th>
-    <th>Best</th>
+    <th>Name</th><th>Worst</th><th>Average</th><th>Best</th><th>Memory</th><th>Stable</th><th>Method</th>
   </tr>
   <tr>
-    <td>Insertion</td>
-    <td>n2</td>
-    <td>n2</td>
-    <td>n</td>
+    <td>Insertion sort</td><td>$n^2$</td><td>$n^2$</td><td>n</td><td>1</td><td>Y</td><td>Insertion</td>
   </tr>
-  
+  <tr>
+    <td>Bubble sort</td><td>$n^2$</td><td>$n^2$</td><td>n</td><td>1</td><td>Y</td><td>Exchanging</td>
+  </tr>
+  <tr>
+    <td>Merge sort</td><td>nlog(n)</td><td>nlog(n)</td><td>nlog(n)</td><td>n</td><td>Y</td><td>Merging</td>
+  </tr>
+  <tr>
+    <td>Quicksort</td><td>n2</td><td>nlog(n)</td><td>nlog(n)</td><td>log(n) (average) <br> n (worst) </td><td>N</td><td>Partitioning</td>
+  </tr>
+  <tr>
+    <td>Selection sort</td><td>$n^2$</td><td>$n^2$</td><td>$n^2$</td><td>1</td><td>N</td><td>Selection</td>
+  </tr>
+  <tr>
+    <td>Heapsort</td><td>nlog(n)</td><td>nlog(n)</td><td>nlog(n)</td><td>1</td><td>N</td><td>Selection</td>
+  </tr>
 </table>
 
 Insertion Sort is similar to how we sorted cards in our hand when playing card games. Each card (element) is compared with the cards before it in the array/list and moved to left of the least card (element) that is larger than it. 
