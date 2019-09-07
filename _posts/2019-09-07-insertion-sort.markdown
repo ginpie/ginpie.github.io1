@@ -1,18 +1,27 @@
 ---
 layout: post
-title:  "Insertion Sort 插入排序"
+title:  "Sorting Algorithm and Insertion Sort 排序算法和插入排序"
 date:   2019-08-16 13:35:08 +1000
 categories: algorithms
 ---
 
-Keyword: Comparative Sorting, Algorithm
-
+Keyword: Sorting, Algorithm, Insertion sort
+* * *
 <h2 id="sorting">Sorting Algorithm</h2>
 <h3 id="definition">Definition</h3>
 Sorting is an algorithm that puts elements of a list in a certain order. The most frequently used orders are numerical order and lexicographical order. Efficient sorting is important for optimizing the efficiency of other algorithms (such as search and merge algorithms) which require input data to be in sorted lists. Sorting is also often useful for canonicalizing data and for producing human-readable output.
 <h3 id="classification">Classification</h3>
 Sorting algorithms are often classified by:
-* Computational complexity （worst, average and best) 
+* Computational complexity （worst, average and best) wrt the size of the array/list. For comparison-based sorting algorithms, the least times of comparison is Ω(n log n).
+* Memory usage. For in-place algorithm ("原地算法", whose input is overwritten by the outputs so no additional data structure is used.) always takes O(1) memory.
+* Recursion. Recursive, non-recursive or partial recursive.
+* Stability. A stable sort maintains the order of equal value elements.
+* Comparison or non-comparison.
+* Serial or Parallel. Parallel sorting is to break the array into sub-arrays that are themselves sorted and then merged. It runs its process in multiple threads. 
+* Adaptability. If the presortedness affects the running time.
+* Different sorting method.
+
+
 
 Insertion Sort is similar to how we sorted cards in our hand when playing card games. Each card (element) is compared with the cards before it in the array/list and moved to left of the least card (element) that is larger than it. 
 
