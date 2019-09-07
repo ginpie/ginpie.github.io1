@@ -13,9 +13,11 @@ Keyword: Sorting, Algorithm, Insertion sort
 Insertion Sort is similar to how we sorted cards in our hand when playing card games. Each card (element) is compared with the cards before it in the array/list and moved to left of the least card (element) that is larger than it. 
 
 This graphical example clearly illustrates the sorting process:
-![Oops, Image is missing](/assets/Insertion-sort-example-300px.gif)Insertion Sort: go through every element from left to right and compare to its lefts
+![Oops, Image is missing](/assets/Insertion-sort-example-300px.gif)
+Insertion Sort: go through every element from left to right and compare to its lefts
 
 Coding in Java:
+
     // Java program for implementation of Insertion Sort 
     class InsertionSort { 
         /*Function to sort array using insertion sort*/
