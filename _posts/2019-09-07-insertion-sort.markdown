@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Sorting Algorithm and Insertion Sort 排序算法和插入排序"
-date:   2019-08-16 13:35:08 +1000
+title:  "Insertion Sort 插入排序"
+date:   2019-09-06 13:35:08 +1000
 categories: algorithms
 ---
 
