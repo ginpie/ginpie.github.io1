@@ -28,7 +28,7 @@ Sorting algorithms are often classified by the following aspects:
     <th>Name</th><th>Worst</th><th>Average</th><th>Best</th><th>Memory</th><th>Stable</th><th>Method</th>
   </tr>
   <tr>
-    <td>Insertion sort</td><td>$n^2$</td><td>$n^2$</td><td>n</td><td>1</td><td>Y</td><td>Insertion</td>
+    <td>Insertion sort</td><td>![n^2](/assets/n^2.png)</td><td>$n^2$</td><td>n</td><td>1</td><td>Y</td><td>Insertion</td>
   </tr>
   <tr>
     <td>Bubble sort</td><td>$n^2$</td><td>$n^2$</td><td>n</td><td>1</td><td>Y</td><td>Exchanging</td>
