@@ -31,7 +31,7 @@ Sorting algorithms are often classified by the following aspects:
     <td>Insertion sort</td><td><img src="/assets/n2.png" alt="n^2"></td><td>$n^2$</td><td>n</td><td>1</td><td>Y</td><td>Insertion</td>
   </tr>
   <tr>
-    <td>Bubble sort</td><td>$n^2$</td><td>$n^2$</td><td>n</td><td>1</td><td>Y</td><td>Exchanging</td>
+    <td>Bubble sort</td><td><img src="/assets/n2.png" alt="n^2"></td><td><img src="/assets/n2.png" alt="n^2"></td><td>n</td><td>1</td><td>Y</td><td>Exchanging</td>
   </tr>
   <tr>
     <td>Merge sort</td><td>nlog(n)</td><td>nlog(n)</td><td>nlog(n)</td><td>n</td><td>Y</td><td>Merging</td>
@@ -40,7 +40,7 @@ Sorting algorithms are often classified by the following aspects:
     <td>Quicksort</td><td>n2</td><td>nlog(n)</td><td>nlog(n)</td><td>log(n) (average) <br> n (worst) </td><td>N</td><td>Partitioning</td>
   </tr>
   <tr>
-    <td>Selection sort</td><td>$n^2$</td><td>$n^2$</td><td>$n^2$</td><td>1</td><td>N</td><td>Selection</td>
+    <td>Selection sort</td><td><img src="/assets/n2.png" alt="n^2"></td><td><img src="/assets/n2.png" alt="n^2"></td><td><img src="/assets/n2.png" alt="n^2"></td><td>1</td><td>N</td><td>Selection</td>
   </tr>
   <tr>
     <td>Heapsort</td><td>nlog(n)</td><td>nlog(n)</td><td>nlog(n)</td><td>1</td><td>N</td><td>Selection</td>
