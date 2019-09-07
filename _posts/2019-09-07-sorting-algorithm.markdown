@@ -48,9 +48,9 @@ Sorting algorithms are often classified by the following aspects:
 </table>
 
 ## Some interesting resources
-[Animated sorting algorithms][asa]
-[15 Sorting Algorithms in 6 Minutes (Youtube)][15sa6m]
-[Slightly Skeptical View on Sorting Algorithms][ssvsa]
+[Animated sorting algorithms][asa]<br>
+[15 Sorting Algorithms in 6 Minutes (Youtube)][15sa6m]<br>
+[Slightly Skeptical View on Sorting Algorithms][ssvsa]<br>
 
 [asa]:    http://www.sorting-algorithms.com/
 [15sa6m]: https://www.youtube.com/watch?v=kPRA0W1kECg
