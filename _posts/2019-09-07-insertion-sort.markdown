@@ -21,7 +21,22 @@ Sorting algorithms are often classified by the following aspects:
 * <b>Adaptability</b>. If the presortedness affects the running time.
 * <b>Sorting method</b>. Insertion sort, merge sort, quick sort, heap sort, etc.
 
-
+<h3 id="list">List of popular sortings</h3>
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Worst</th>
+    <th>Average</th>
+    <th>Best</th>
+  </tr>
+  <tr>
+    <td>Insertion</td>
+    <td>n2</td>
+    <td>n2</td>
+    <td>n</td>
+  </tr>
+  
+</table>
 
 Insertion Sort is similar to how we sorted cards in our hand when playing card games. Each card (element) is compared with the cards before it in the array/list and moved to left of the least card (element) that is larger than it. 
 
